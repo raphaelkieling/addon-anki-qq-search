@@ -20,3 +20,6 @@ In the addon this could be:
 So when you type for example: `Claw`, will open two tabs putting the word inside the `{{word}}`.
 
 ![example](./example.png)
+
+## How use
+For now i won't create a offical anki addon to be installed. So please, execute a `git clone` inside the anki addons folder.
