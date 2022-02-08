@@ -1,5 +1,7 @@
 # QQSearch (Anki Addon)
 
+> ignore the horrible code
+
 Problem:
 When you try create cards with a lot of information we need open a lot of differents tabs inside chrome.
 
