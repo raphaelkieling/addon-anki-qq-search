@@ -14,8 +14,8 @@ You ever open 2 (can be more) links:
 - https://www.thesaurus.com/browse/pitfall
 
 In the addon this could be:
-- https://www.linguee.com.br/portugues-ingles/search?source=auto&query=`{{word}}`
-- https://www.thesaurus.com/browse/`{{word}}`
+- https://www.linguee.com.br/portugues-ingles/search?source=auto&query={{word}}
+- https://www.thesaurus.com/browse/{{word}}
 
 So when you type for example: `Claw`, will open two tabs putting the word inside the `{{word}}`.
 
