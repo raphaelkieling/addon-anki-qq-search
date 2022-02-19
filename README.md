@@ -1,25 +1,29 @@
 # QQSearch (Anki Addon)
 
-> ignore the horrible code
+Anki link: https://ankiweb.net/shared/info/1227682730
 
 ### Problem:
-When you try create cards with a lot of information we need open a lot of differents tabs inside chrome.
+When you try create cards with a lot of information you should open a lot of differents tabs inside your browser. The setup to start looking for a defintion/translation/examples some times are hard.
 
 ### Resolution:
-The addon will open all the tabs inside a anki dialog using the created urls.
+The addon will open all the tabs inside a anki dialog to facilitate searching for information.
 
-### Example:
-You ever open 2 (can be more) links:
-- https://www.linguee.com.br/portugues-ingles/search?source=auto&query=pitfall
-- https://www.thesaurus.com/browse/pitfall
+### Example configuration
 
-In the addon this could be:
-- https://www.linguee.com.br/portugues-ingles/search?source=auto&query={{word}}
-- https://www.thesaurus.com/browse/{{word}}
+![example](./example01.png)
 
-So when you type for example: `Claw`, will open two tabs putting the word inside the `{{word}}`.
+These URLs are for someone that is studying `English from Portuguese` so please, remember to create your URL's by yourself.
 
-![example](./example.png)
+```
+{
+    "urls": [
+        "https://dictionary.cambridge.org/dictionary/english-portuguese/{{word}}",
+        "https://www.thesaurus.com/browse/{{word}}",
+        "https://www.linguee.com.br/portugues-ingles/search?source=auto&query={{word}}",
+        "https://translate.google.com/?sl=en&tl=pt&text={{word}}&op=translate",
+        "https://www.bing.com/images/search?q={{word}}"
+    ]
+}
+```
 
-## How use
-For now i won't create a offical anki addon to be installed. So please, execute a `git clone` inside the anki addons folder.
+> How access the config? Tools > Select the addon > Config button > Paste the code there

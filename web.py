@@ -105,7 +105,7 @@ class Ui_Dialog(object):
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
-        self.pushButton.setText(_translate("Dialog", "Add Word"))
+        self.pushButton.setText(_translate("Dialog", "Search"))
         self.label.setText(_translate("Dialog", "Use {{word}} to open the url using a selected word."))
         self.pushButton_2.setText(_translate("Dialog", "Add Url"))
         self.pushButton_3.setText(_translate("Dialog", "Remove"))

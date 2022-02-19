@@ -115,7 +115,7 @@
             </rect>
            </property>
            <property name="text">
-            <string>Add Word</string>
+            <string>Search</string>
            </property>
           </widget>
           <widget class="Line" name="line_2">
