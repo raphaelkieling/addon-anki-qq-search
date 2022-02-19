@@ -2,7 +2,7 @@ buildui:
 	pyuic5 web.ui -o web.py
 
 release:
-	zip -r . ../myaddon.ankiaddon
+	zip -r ./qqsearch.ankiaddon *
 
 test: testinstall
 	anki
